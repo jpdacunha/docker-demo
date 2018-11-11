@@ -1,7 +1,8 @@
-# docker-demo
+Docker DEMONSTRATION
+==========================================================
 Attached files for Docker in a nutshell presentation
 
-CLEANING INSTALL
+CLEANING DOCKER INSTALLATION
 ==========================================================
 
 sudo docker system prune
