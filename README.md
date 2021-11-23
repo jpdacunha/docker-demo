@@ -23,7 +23,7 @@ sudo docker images ls
 
 sudo docker pull httpd
 
-docker run -dit --name httpd-jp -p 80:80 httpd
+sudo docker run -dit --name httpd-jp -p 80:80 httpd
 
 ==> http://localhost
 
