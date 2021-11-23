@@ -9,10 +9,13 @@ sudo docker system prune
 
 sudo docker system prune -a
 
+sudo docker volume prune
+
 sudo docker images ls -a
 
 sudo docker container ls -a
 
+sudo docker volume ls
 
 DEMO 01
 ==========================================================
@@ -57,7 +60,7 @@ sudo docker logs node-app-jp
 
 ==> http://127.0.0.1:49160/
 
-docker exec -it node-app-jp /bin/bash
+sudo docker exec -it node-app-jp /bin/bash
 
 ps -aux
 
@@ -73,9 +76,9 @@ sudo docker run -dit --name httpd-jp-volume -p 80:80 -v /home/dev/docker-demo/ht
 
 ==> http://localhost
 
-docker volume ls
+sudo docker volume ls
 
-docker container stop httpd-jp-volume
+sudo docker container stop httpd-jp-volume
 
 
 DEMO 04
