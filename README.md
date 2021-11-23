@@ -6,9 +6,11 @@ CLEANING DOCKER INSTALLATION
 ==========================================================
 
 sudo docker system prune
+
 sudo docker system prune -a
 
 sudo docker images ls -a
+
 sudo docker container ls -a
 
 
